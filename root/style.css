@@ -612,3 +612,44 @@ footer p {
   color: var(--text-secondary);
 }
 
+/* Responsive Fixes for Mobile Viewports */
+@media (max-width: 768px) {
+  section.container {
+    padding: 3rem 1.25rem;
+  }
+  
+  .card {
+    padding: 1.5rem;
+  }
+  
+  .timeline {
+    margin-left: 0.5rem;
+    padding-left: 1.25rem;
+  }
+  
+  .timeline-marker {
+    left: -1.85rem;
+  }
+  
+  .project-list {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .project-card {
+    padding: 1.25rem;
+  }
+  
+  .edu-card, .cert-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    padding: 1.75rem 1.25rem;
+  }
+  
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
